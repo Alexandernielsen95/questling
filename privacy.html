@@ -15,15 +15,15 @@
 </head>
 <body>
 <h1>Focusbuddy — Privacy Policy</h1>
-<p class="updated">Effective date: July 2, 2026</p>
+<p class="updated">Effective date: July 4, 2026</p>
 
-<p><strong>The short version: Focusbuddy collects no data about you. Everything you put into the app stays on your device (and, if you turn on iCloud sync, in your own private iCloud). We have no servers, no accounts, no analytics, no ads, and no way to see anything you do.</strong></p>
+<p><strong>The short version: by default, Focusbuddy collects no data about you and sends nothing off your device. Everything you put into the app stays on your device (and, if you turn on iCloud sync, in your own private iCloud). We have no servers, no accounts, no analytics, and no ads. The one exception is entirely your choice: if you turn on an external AI provider or web search in Settings, the data needed for that feature is sent directly to the provider you picked — never to us. Both are off by default.</strong></p>
 
 <h2>Who we are</h2>
 <p>Focusbuddy is an independent iOS app. For anything privacy-related, contact: <strong>coder420@blazedlabz.com</strong>.</p>
 
 <h2>What we collect</h2>
-<p>Nothing. Focusbuddy has no server and no user accounts. Your quests, notes, streaks, garden, companion conversations, and settings are stored only in the app's local database on your device.</p>
+<p>Nothing ourselves. Focusbuddy has no server and no user accounts. Your quests, notes, streaks, garden, companion conversations, and settings are stored only in the app's local database on your device. The only data that ever leaves your device is described below, and only if you turn it on.</p>
 
 <h2>iCloud sync (optional, off by default)</h2>
 <p>If you turn on iCloud Sync in Settings, your app data is stored in your personal, <em>private</em> iCloud database (Apple CloudKit) so it can sync between your own devices. This data is tied to your Apple Account, encrypted in transit and at rest by Apple, and is technically inaccessible to us. Turning sync off stops further syncing; you can delete iCloud app data at any time in iOS Settings → your name → iCloud.</p>
@@ -38,7 +38,16 @@
 <p>If you allow location access, it is used once to show crisis helplines local to your region in the Safety Plan. Your location is not stored and never leaves your device.</p>
 
 <h2>The AI companion</h2>
-<p>Your companion is an AI, not a human. It runs on Apple's on-device foundation models (or a built-in scripted fallback on devices without them). Conversations are processed and stored only on your device (and in your private iCloud if sync is on). No conversation content is ever sent to us or any third party.</p>
+<p>Your companion is an AI, not a human. By default, it runs on Apple's on-device foundation models (or a built-in scripted fallback on devices without them). In this default mode, conversations are processed and stored only on your device (and in your private iCloud if sync is on) — nothing is sent to us or any third party.</p>
+
+<h2>External AI provider (optional, off by default)</h2>
+<p>In Settings, you can choose to connect your own account with ChatGPT (OpenAI), Gemini (Google), Claude (Anthropic), or OpenRouter, using an API key you obtain and enter yourself. If you turn this on, your chat messages are sent directly from your device to the provider you chose, using your own key — never through us, and we never see or store them. Your key is saved only in this phone's Keychain. The chat screen always shows which provider (if any) is currently active. Turning this off returns you to fully on-device processing.</p>
+
+<h2>Web search (optional, off by default)</h2>
+<p>If you turn on "Allow web search" in Settings, only the search words you or your companion send are shared with DuckDuckGo or Wikipedia to look up an answer — no other conversation content or personal information is sent.</p>
+
+<h2>Crisis support always stays on-device</h2>
+<p>Regardless of whether an external AI provider or web search is turned on, Focusbuddy's crisis-language detection and Safety Plan always run locally on your device first, before anything is sent anywhere.</p>
 
 <h2>Notifications</h2>
 <p>Reminders and companion check-ins are scheduled locally on your device. We do not send remote push messages.</p>
